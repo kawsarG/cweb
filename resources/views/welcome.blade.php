@@ -201,10 +201,21 @@
             </div>
         </div>
     </div>
-
-
-
     <div id="dropDownSelect1"></div>
+
+    <!--contact section ends-->
+
+    <!--footer section starts-->
+
+    <div id="footer">
+        <p>Design and Developed By <a href="https://yetfix.com/">YetFix Ltd.</a></p>
+    </div>
+    <!--footer section endss-->
+
+
+
+
+
 
     <!--===============================================================================================-->
     <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
