@@ -82,7 +82,7 @@
                         <li><a href="#services">Our Services</a></li>
                     </ul>
                     <ul>
-                        <li><a href="#products">Products</a></li>
+                        <li><a href="/products">Products</a></li>
                     </ul>
                 </div>
             </div>
@@ -158,18 +158,14 @@
     <!--Products Section starts-->
     <div id="products">
         <h1 class="title ser">Our products</h1>
-        <div class="div">
-            <button>All Products
+        <div class="buttons">
+            <button class="btn btn-primary btn1">All Products
             </button>
-            <button>Bio-Medical
+            <button class="btn btn-primary btn2">Bio-Medical
             </button>
-            <button>Medical Equipement
+            <button class="btn btn-primary btn3">Medical Equipement
             </button>
-            <button>Tools
-            </button>
-            <button>
-            </button>
-            <button>All Products
+            <button class="btn btn-primary btn4">Tools
             </button>
         </div>
     </div>

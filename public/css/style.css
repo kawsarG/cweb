@@ -140,7 +140,7 @@ body {
     align-items: center;
     flex-direction: column;
     padding: 20px;
-    box-shadow: 0 5px 20px rgba(0, 0, 0, .5);
+    box-shadow: 0 3px 15px rgba(0, 0, 0, .5);
     z-index: 10000;
     border: none;
 }
@@ -165,4 +165,28 @@ body {
     position: fixed;
     top: 0;
     width: 100%;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+.btn:focus {
+    outline: none !important;
+}
+
+.btn {
+    margin-right: 5px;
+    border: none;
+}
+
+.title-box {
+    background-color: #1571EC !important;
+}
+
+.quote2 {
+    background-color: #FF5733;
 }
