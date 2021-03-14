@@ -158,6 +158,20 @@
     <!--Products Section starts-->
     <div id="products">
         <h1 class="title ser">Our products</h1>
+        <div class="div">
+            <button>All Products
+            </button>
+            <button>Bio-Medical
+            </button>
+            <button>Medical Equipement
+            </button>
+            <button>Tools
+            </button>
+            <button>
+            </button>
+            <button>All Products
+            </button>
+        </div>
     </div>
     <!--Products Section ends-->
 
