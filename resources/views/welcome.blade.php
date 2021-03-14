@@ -42,8 +42,11 @@
     <!-- Topbar Starts-->
     <div class="topbar-outer">
         <div class="topbar">
-            <div class="info">
+            <div class="info" id="navbar">
                 <ul>
+                    <li>
+                        <a href="/"><img src="images/care.svg" class="toplogo" alt=""></a>
+                    </li>
                     <li>
                         <i class="fas fa-phone-alt"></i> 01681046437
                     </li>
@@ -64,9 +67,7 @@
     <div class="box">
         <div class="contain">
             <div class="navbar">
-                <div class="logo">
-                    <img src="images/care.svg" class="toplogo" alt="">
-                </div>
+
                 <div class="navul">
                     <ul>
                         <li><a href="">Equipements</a></li>
@@ -76,6 +77,12 @@
                     </ul>
                     <ul>
                         <li><a href="">Medical Tools</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#services">Our Services</a></li>
+                    </ul>
+                    <ul>
+                        <li><a href="#products">Products</a></li>
                     </ul>
                 </div>
             </div>
@@ -102,6 +109,57 @@
     </div>
 
     <!--hero section ends-->
+
+    <!--Services section starts-->
+    <div id="services">
+        <h1 class="title ser">Our Servcies</h1>
+    </div>
+    <div class="contain">
+        <div class="service-cards">
+            <div class="service card1">
+                <img src="images/services/heart.svg" alt="">
+                <h4>Medical Equipements</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, molestias?</p>
+            </div>
+            <div class=" service card2">
+                <img src="images/services/blood-pressure.svg" alt="">
+                <h4>Medical Equipements</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, molestias?</p>
+            </div>
+            <div class=" service card3">
+                <img src="images/services/first-aid-kit.svg" alt="">
+                <h4>Medical Equipements</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, molestias?</p>
+            </div>
+            <div class=" service card1">
+                <img src="images/services/pulse-oximeter.svg" alt="">
+                <h4>Medical Equipements</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, molestias?</p>
+            </div>
+            <div class=" service card2">
+                <img src="images/services/adjustment.png" alt="">
+                <h4>Medical Equipements</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, molestias?</p>
+            </div>
+            <div class=" service card3">
+                <img src="images/services/rubber-gloves.svg" alt="">
+                <h4>Medical Equipements</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, molestias?</p>
+            </div>
+        </div>
+    </div>
+    <!--Services Section ends-->
+
+    <!--Support section starts-->
+
+
+    <!--Support Section ends-->
+
+    <!--Products Section starts-->
+    <div id="products">
+        <h1 class="title ser">Our products</h1>
+    </div>
+    <!--Products Section ends-->
 
 
     <!--contact section starts-->

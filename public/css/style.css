@@ -29,7 +29,7 @@ body {
 }
 
 .toplogo {
-    width: 80px;
+    width: 50px;
 }
 
 .info {
@@ -75,7 +75,7 @@ body {
 }
 
 .quote {
-    background-color: #FF7A5A;
+    background-color: #1571EC;
     color: white;
     padding: 7px 30px;
     border-radius: 5px;
@@ -130,4 +130,36 @@ body {
 #footer a {
     text-decoration: none;
     color: #ff7a5a;
+}
+
+.service {
+    border: 1px solid #1571ec;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.service img {
+    width: 80px;
+}
+
+.service h4 {
+    margin-top: 20px;
+    font-family: nunito, sans-serif;
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px !important;
+    margin: 50px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
